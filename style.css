@@ -1,0 +1,236 @@
+
+#container{
+    text-align: center;
+    background-color:rgb(2, 2, 35);
+}
+#heading{
+    color: white;
+    font-size: 50px;
+    color: cyan;
+    position:relative;
+    
+    
+}
+
+#search-bar{
+    display:inline-block;
+    height:40px;
+    width:85%;
+    border-radius: 40px;
+    margin-top:40px;
+    margin-bottom:20px;
+}
+#favorites {
+    position: absolute;
+    top: 18px;
+    right: 100px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.button-container button {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-container .favorites-btn {
+    background-color: #ff9800;
+    color: white;
+}
+
+.button-container .details-btn {
+    background-color: #2196f3;
+    color: white;
+}
+.title-name{
+    color:white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+#details-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#superhero-image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#superhero-title {
+    font-size: 24px;
+    margin-top: 20px;
+    color:white;
+}
+
+#superhero-description {
+    margin-top: 10px;
+    color:white;
+}
+
+#superhero-comics,
+#superhero-series,
+#superhero-stories,#hero-id{
+    margin-top: 10px;
+    font-weight: bold;
+    color:white
+}
+#details-container {
+    position: relative;
+    background-color: rgb(2, 2, 35);
+}
+
+#home-button {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+}
+
+
+/* Center the heading */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the favorites list container */
+#favorites-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    list-style-type: none;
+}
+
+/* Style individual favorite items */
+.favorite-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.favorite-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.favorite-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.favorite-item .remove-btn {
+    background-color: #ff4b5c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+}
+
+.favorite-item .remove-btn:hover {
+    background-color: #e03e4f;
+}
+
+
+/* Container for the heading and button */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    flex: 1;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Style the home button */
+#home-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+}
+
+#home-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Style the favorites list container */
+#favorites-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    list-style-type: none;
+}
+
+/* Style individual favorite items */
+.favorite-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.favorite-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.favorite-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.favorite-item .remove-btn {
+    background-color: #ff4b5c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+}
+
+.favorite-item .remove-btn:hover {
+    background-color: #e03e4f;
+}
